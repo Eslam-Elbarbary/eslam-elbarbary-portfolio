@@ -12,11 +12,7 @@ import { duration, easings } from "@/lib/motion";
 import { portfolio } from "@/data/portfolio";
 import { isExternalHref } from "@/lib/utils";
 
-type HeroSectionProps = {
-  resumeAvailable: boolean;
-};
-
-export function HeroSection({ resumeAvailable }: HeroSectionProps) {
+export function HeroSection() {
   const reduce = useReducedMotion();
   const { ready } = useIntro();
   const { content, proofPoints, social, resume } = portfolio;
@@ -99,21 +95,15 @@ export function HeroSection({ resumeAvailable }: HeroSectionProps) {
               </Button>
               <div className="flex min-w-0 flex-col gap-1">
                 <Button
-                  href={resume.href}
+                  href={resume.resumeUrl}
                   variant="secondary"
                   className="w-full sm:w-auto"
                   download
-                  disabled={!resumeAvailable}
-                  disabledLabel="Add the resume PDF to enable this download"
+                  aria-label="Download Eslam Elbarbary Resume"
                 >
                   <Download className="h-4 w-4" />
                   {content.hero.secondaryCta.label}
                 </Button>
-                {!resumeAvailable ? (
-                  <p className="px-1 text-[11px] text-muted">
-                    Resume PDF will be enabled once the file is added.
-                  </p>
-                ) : null}
               </div>
             </motion.div>
 

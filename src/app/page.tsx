@@ -9,16 +9,12 @@ import { OrbitSection } from "@/components/sections/orbit";
 import { OtherWorkSection } from "@/components/sections/other-work";
 import { ProjectsSection } from "@/components/sections/projects";
 import { SkillsSection } from "@/components/sections/skills";
-import { portfolio } from "@/data/portfolio";
-import { hasResumeFile } from "@/lib/resume";
 
 export default function Home() {
-  const resumeAvailable = hasResumeFile(portfolio.resume.href);
-
   return (
-    <SiteShell resumeAvailable={resumeAvailable}>
+    <SiteShell>
       <main id="main" className="flex-1">
-        <HeroSection resumeAvailable={resumeAvailable} />
+        <HeroSection />
         <AboutSection />
         <SkillsSection />
         <OrbitSection />

@@ -111,7 +111,7 @@ export type Person = {
 };
 
 export type Resume = {
-  href: string;
+  resumeUrl: string;
   label: string;
 };
 

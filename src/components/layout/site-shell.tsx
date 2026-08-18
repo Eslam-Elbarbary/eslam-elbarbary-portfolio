@@ -6,10 +6,9 @@ import { WhatsAppFab } from "@/components/layout/whatsapp-fab";
 
 type SiteShellProps = {
   children: React.ReactNode;
-  resumeAvailable: boolean;
 };
 
-export function SiteShell({ children, resumeAvailable }: SiteShellProps) {
+export function SiteShell({ children }: SiteShellProps) {
   return (
     <IntroProvider>
       <a
@@ -19,7 +18,7 @@ export function SiteShell({ children, resumeAvailable }: SiteShellProps) {
         Skip to content
       </a>
       <SitePreloader />
-      <Navbar resumeAvailable={resumeAvailable} />
+      <Navbar />
       <div className="flex min-h-full min-w-0 flex-1 flex-col">{children}</div>
       <Footer />
       <WhatsAppFab />

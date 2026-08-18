@@ -10,11 +10,7 @@ import { Container } from "@/components/ui/container";
 import { cn } from "@/lib/utils";
 import { portfolio } from "@/data/portfolio";
 
-type NavbarProps = {
-  resumeAvailable: boolean;
-};
-
-export function Navbar({ resumeAvailable }: NavbarProps) {
+export function Navbar() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("#hero");
   const scrolled = useSyncExternalStore(
@@ -148,12 +144,11 @@ export function Navbar({ resumeAvailable }: NavbarProps) {
 
         <div className="hidden lg:block">
           <Button
-            href={resume.href}
+            href={resume.resumeUrl}
             variant="secondary"
             className="h-9 px-4 text-[13px]"
             download
-            disabled={!resumeAvailable}
-            disabledLabel="Resume PDF will be available soon"
+            aria-label="Download Eslam Elbarbary Resume"
           >
             <Download className="h-3.5 w-3.5" />
             Resume
@@ -198,12 +193,11 @@ export function Navbar({ resumeAvailable }: NavbarProps) {
               ))}
               <div className="px-3 pt-3">
                 <Button
-                  href={resume.href}
+                  href={resume.resumeUrl}
                   variant="primary"
                   className="w-full"
                   download
-                  disabled={!resumeAvailable}
-                  disabledLabel="Resume PDF will be available soon"
+                  aria-label="Download Eslam Elbarbary Resume"
                 >
                   <Download className="h-4 w-4" />
                   {resume.label}

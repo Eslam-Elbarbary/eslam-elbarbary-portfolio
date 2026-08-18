@@ -16,7 +16,7 @@ export const portfolio: Portfolio = {
     siteUrl: "[ADD SITE URL]",
   },
   resume: {
-    href: "/resume/eslam-elbarbary-cv.pdf",
+    resumeUrl: "/resume/eslam-elbarbary-cv.pdf",
     label: "Download Resume",
   },
   nav: [
