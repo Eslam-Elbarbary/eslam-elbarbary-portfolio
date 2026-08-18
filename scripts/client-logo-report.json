@@ -1,0 +1,56 @@
+[
+  {
+    "id": "anesthesia-viva",
+    "url": "https://anesthesiavivahub.com/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\anesthesia-viva\\logo.png"
+  },
+  {
+    "id": "jismifit",
+    "url": "https://jismifit.me/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\jismifit\\logo.png"
+  },
+  {
+    "id": "hydro",
+    "url": "https://hydro-eg.com/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\hydro\\logo.jpg"
+  },
+  {
+    "id": "delta-steel",
+    "url": "https://deltasteelmill.com/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\delta-steel\\logo.png"
+  },
+  {
+    "id": "huaye",
+    "url": "https://huaye-egy.com/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\huaye\\logo.png"
+  },
+  {
+    "id": "approachx",
+    "url": "https://approachx.net/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\approachx\\logo.png"
+  },
+  {
+    "id": "pets-zone",
+    "url": "https://bits-zone-front.vercel.app/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\pets-zone\\logo.png"
+  },
+  {
+    "id": "dh",
+    "url": "https://dh-kw.vercel.app/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\dh\\logo.png"
+  },
+  {
+    "id": "real-estate",
+    "url": "https://real-estate-platform-sand.vercel.app/",
+    "status": "ready",
+    "file": "C:\\Users\\Mega Store\\Desktop\\portifolio\\eslam-portfolio\\public\\images\\client-logos\\real-estate\\logo.svg"
+  }
+]
